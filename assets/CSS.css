@@ -1,0 +1,34 @@
+
+header .table {
+	display: table;
+	height: 100%;
+}
+
+header .container {
+	height: 100%;
+}
+
+header .header-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+header .typed {
+	display: inline-block;
+	margin: 0;
+}
+
+header .typed-cursor {
+	font-size: 60px;
+	display: inline-block;
+	margin: 0 10px;
+	color: #00a8ff;
+	-webkit-animation-name: flash;
+	animation-name: flash;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
