@@ -1,0 +1,91 @@
+.challenges 
+{ 
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.challenges-card
+{
+    font-family: 'Calibri';  
+    font-weight: 100;
+    display: block;
+}
+
+.card-title
+{
+    color: #33485F;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight:400;
+}
+
+.quadrants
+{
+    color: aliceblue;
+    /*margin: 20px; */
+}
+
+.quadrant-title
+{
+    color: #FFF4F3;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.quadrant-number
+{
+    color: #FFF4F3;
+    /*font-weight: 20;*/
+    font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.quadrants-upper, .quadrants-lower
+{
+    /*filter: brightness(90%);*/
+    display: flex;
+}
+
+.solutions
+{
+    background-color: #3498DB;
+}
+
+.shortest
+{
+    background-color: #FF6545;
+}
+
+.first
+{
+    background-color: #44BFA3;
+}
+
+.authored
+{
+    background-color: #33485F; 
+}
+
+.quadrant
+{
+    height :100px;
+    width: 150px;
+    border-radius: 0.5px;
+    text-align: center;
+}
+
+@media all and (max-width: 600px) {
+    /* mobile */
+    .quadrant {
+        
+    }
+
+    .quadrants-upper, .quadrants-lower
+    {
+        display: block;
+        padding: 0 25px;
+    }
+}
